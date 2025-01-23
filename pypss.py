@@ -68,7 +68,7 @@ class ssh_connect:
 
 
 if __name__ == "__main__":
-    x = ssh_connect("100.124.197.216",["show version","show xc brie","show slot *"])
+    x = ssh_connect("1.1.1.1,["show version","show xc brie","show slot *"])
     print(x.cmdres["show version"])
     print(x.cmdres["show xc brie"])
     print(x.cmdres["show slot *"])
